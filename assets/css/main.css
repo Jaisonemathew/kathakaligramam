@@ -3880,3 +3880,35 @@ input, select, textarea {
 		}
 
 	}
+
+.navbar {
+    background-color: #333; /* Dark background */
+    overflow: hidden;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.nav-link {
+    display: block;
+    color: #f2f2f2; /* Light text */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #ddd; /* Light background on hover */
+    color: black; /* Dark text on hover */
+}
+.nav-link.active {
+    color: #4CAF50; /* Change to the color you want for the active link */
+}
+
